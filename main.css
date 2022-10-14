@@ -101,21 +101,23 @@ div.fish img {
 }
 
 div.fish {
-  padding: 1px;
   text-align: center;
   font-family: "Gill Sans", sans-serif;
 }
 
 
-.fishGallery {
-  display: grid; /* Display elements in a grid */
-  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr)); 
+.fish {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit,minmax(100px, 1fr)); 
+  grid-auto-rows: minmax(100px, auto);
   gap: 50px;
-  grid-auto-rows: minmax(200px, auto);
   padding: 0 6px;
   float: left;
   width: 50%;
 }
+
+
+
 
 /* Begin styling for locations */
 
